@@ -1,0 +1,84 @@
+
+
+/*font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Galada', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Piedra', cursive;
+font-family: 'Yellowtail', cursive;*/
+
+#tipo1{font-family: 'Courgette', cursive; font-size: 2em;}
+#tipo2{font-family: 'Galada', cursive; font-size: 2em;}
+#tipo3{font-family: 'Yellowtail', cursive; font-size: 2em;}
+
+#icon{ height: 47px; width: 40px;}
+
+#tarjeta{
+    width: 24%;
+    height: auto;
+    min-height: 440px;
+    display: none;
+    margin: 80px auto;
+    background: #fff;
+    border: 10px solid #ddd;
+    padding: 20px 5%;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+
+
+/*SELECTOR UNIVERSAL*/
+*{margin: 0; padding: 0;}
+
+body{
+    font: 12px Monaco, Monospace;
+    background-image: url('../img/back.jpg');
+    background-size: cover;
+}
+#contenido{
+    width: 60%;
+    margin: 80px auto;
+    background-color: whitesmoke;
+    border: 10px solid #ddd;
+    padding: 20px 5%;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+h1{
+    font-size: 25px;
+    padding: 0 0 10px;
+    color: #43d8c9;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+h2{
+    font-size: 18px;
+    padding: 10px 0;
+    color: #79d70f;
+}
+/* MENU ICON */
+.menuicon{
+    width: 25%;
+    height: auto;
+    float: left;
+    margin: auto 0;
+}
+#centro{
+    margin: 0 12.5%;
+}
+.linea{
+    width: 500px;
+}
+/* Estilos para lista definida */
+dt{
+    font-weight: bold;
+    text-decoration: underline;
+}
+dd{
+    padding-left: 20px;
+}
+.anidada{
+    padding-left: 20px;   
+}
